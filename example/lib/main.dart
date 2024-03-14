@@ -63,7 +63,9 @@ class MainPage extends StatelessWidget {
           Expanded(
             child: Container(
               padding: const EdgeInsets.all(8),
-              child: const YandexMap()
+              child: const YandexMap(
+                mapType: MapType.satellite,
+              )
             )
           ),
           Expanded(
